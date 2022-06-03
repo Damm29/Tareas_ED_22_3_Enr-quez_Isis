@@ -8,11 +8,22 @@ public class NewBehaviourScript : MonoBehaviour
 
     public TextMeshProUGUI usser_option;
     public TMP_InputField usser_input;
+    char A;
+    char B;
+    char C; 
+    char D; 
 
     public void opcionmusical()
     {
 
-        usser_option.text = usser_input.text;
+      
+
+    }
+
+    public void Reset()
+    {
+        
+
 
     }
 }
